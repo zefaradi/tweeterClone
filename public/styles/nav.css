@@ -1,0 +1,59 @@
+nav {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  font-size: xx-large;
+  font-family: 'Bungee';
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: fixed;
+}
+
+.double-arrow-and-new-tweet {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.Write-a-new-tweet {
+  margin-top: 35px;
+  display: flex;
+  font-family: 'Source Sans Pro';
+  font-size: x-large;
+}
+
+#darrow {
+  color: red;
+  margin-top: 10px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+@keyframes jumpInfinite {
+  50% {
+    transform: translateY(12px);
+  }
+}
+
+.logo {
+  margin-top: 30px;
+  font-size: larger;
+}
+
+.short-error,
+.long-error {
+  display: flex;
+  gap: 15px;
+  color: #c92a2a;
+  border: 0.3rem #c92a2a solid;
+  margin: 0 5%;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+}
