@@ -1,0 +1,53 @@
+.new-tweet {
+  width: 90%;
+  margin: auto;
+}
+
+#tweet-text {
+  width: 100%;
+  height: 65px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-bottom: 5px solid #5f585a;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  margin-top: 0 px;
+  font-size: large;
+  color: black;
+}
+
+.humming {
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: x-large;
+}
+
+.submit-counter {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bungee';
+}
+
+.submit-counter button {
+  color: #FFFFFF;
+  background-color: #4056A1;
+  border: none;
+}
+
+.submit-btn:hover {
+  box-shadow: 0px 0px 0px 3px rgb(119, 163, 219);
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.error {
+  color: red;
+}

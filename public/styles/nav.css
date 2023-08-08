@@ -30,7 +30,8 @@ nav {
 
 #darrow {
   color: red;
-  margin-top: 10px;
+  margin-top: 0;
+  margin-left: 89px;
   animation: jumpInfinite 1.5s infinite;
 }
 

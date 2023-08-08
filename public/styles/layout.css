@@ -24,3 +24,16 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ .container {
+  margin-top: 120px;
+  width: 90%;
+  /* align-items: center; */
+  margin:auto;
+  background-color: #f4f1ec;
+ }
+
+ #tweet-form {
+  margin-top: 2rem;
+  grid-column: 2;
+}
