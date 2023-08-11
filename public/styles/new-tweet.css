@@ -5,7 +5,7 @@
 
 #tweet-text {
   width: 100%;
-  height: 65px;
+  margin: auto;
   border: none;
   background-color: transparent;
   resize: none;
@@ -13,7 +13,7 @@
   border-bottom: 5px solid #5f585a;
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  margin-top: 0 px;
+  margin-top: 0px;
   font-size: large;
   color: black;
 }
@@ -50,4 +50,80 @@ textarea {
 
 .error {
   color: red;
+}
+
+#old-tweet-text {
+  width: 90%;
+  margin: auto;
+  background-color: transparent;
+  border: 5px solid #5f585a;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: large;
+  padding: 1em 1em 0em 1em;
+}
+
+#old-tweet-text:hover {
+  box-shadow: 5px 10px lightsteelblue;
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.tweet-body {
+  border-bottom: 3px solid #5f585a;
+  padding-bottom: 1.5em;
+  font-size: larger;
+}
+
+.symbols {
+  display: flex;
+  justify-content: space-between;
+  color: #4056A1;
+  column-gap: 0.5em;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  font-size: large;
+}
+
+.tweet-handle {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  font-size: larger;
+  font-weight: large;
+}
+
+.tweeter-image-name {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 1em;
+  font-size: larger;
+  font-weight: normal;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+}
+
+.flag:hover {
+  color: goldenrod;
+}
+
+.re-tweet:hover {
+  color: goldenrod;
+}
+
+.heart:hover {
+  color: goldenrod;
 }

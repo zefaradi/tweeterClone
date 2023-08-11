@@ -3,7 +3,7 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-html {
+ html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -15,7 +15,7 @@ html {
  */
 
 body {
-  color: #545149;
+  color: #5f585a;
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro';
@@ -26,14 +26,53 @@ body {
  */
 
  .container {
-  margin-top: 120px;
-  width: 90%;
-  /* align-items: center; */
-  margin:auto;
-  background-color: #f4f1ec;
+   width: 90%;
+   background-color: #f4f1ec;
+   margin: auto;
  }
 
- #tweet-form {
-  margin-top: 2rem;
-  grid-column: 2;
+ @media (min-width: 1024px) {
+  .media-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .container {
+    margin-top: 120px;
+  }
+
+  .header-container {
+    grid-column: 1;
+    width: 70%;
+    transform: translate(10%, 25%);
+    padding-top: 2.5rem;
+    margin-left: 40px;
+  }
+
+  .double-arrow-and-new-tweet {
+    margin-top: 0px;
+  }
+
+  .short-error,
+  .long-error {
+    display: flex;
+    gap: 15px;
+    color: #c92a2a;
+    border: 0.3rem #c92a2a solid;
+    margin: 0 5%;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 26px;
+    font-weight: 600;
+  }
+
+  #tweet-form {
+    margin-top: 2rem;
+    grid-column: 2;
+  }
+
+  .navbar {
+    z-index: 1;
+    background-color: #4056A1;
+  }
 }
